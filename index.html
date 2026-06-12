@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Dynamic Profile Card</title>
+  
+</head>
+<body>
+
+<div id="profileCard">
+  <!-- Profile Image with placeholder (modern placeholder service) -->
+  <img id="profileImage" src="https://placehold.co/100x100" 
+       alt="User profile avatar" 
+       onerror="this.onerror=null; this.src='https://placehold.co/100x100';">
+
+  <!-- User name -->
+  <h2 id="profileName">John Doe</h2>
+  
+  <!-- Role / job title -->
+  <p id="profileRole">Software Developer</p>
+  
+  <!-- Short bio -->
+  <p id="profileBio">Passionate about coding and learning new technologies. Building interactive UIs & exploring full‑stack.</p>
+
+  <!-- Action buttons panel -->
+  <div class="button-group">
+    <button id="updateNameBtn"> Update Name</button>
+    <button id="updateRoleBtn"> Update Role</button>
+    <button id="toggleStatusBtn"> Toggle Active Status</button>
+    <button id="changeImageBtn"> Change Image</button>
+  </div>
+</div>
+
+<script src="dynamic_profile_card.js"></script>
+</body>
+</html>
+
+</body>
+</html>
